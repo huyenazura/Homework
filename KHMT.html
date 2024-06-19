@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Khoa Công nghệ thông tin - Faculty of Information Technology</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta content="" name="keywords" />
+  <meta content="" name="description" />
+
+  <!-- Favicon -->
+  <link href="img/favicon.ico" rel="icon" />
+
+  <!-- Google Web Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Ubuntu:wght@400;500&display=swap"
+    rel="stylesheet" />
+
+  <!-- Icon Font Stylesheet -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+
+  <!-- Libraries Stylesheet -->
+  <link href="lib/animate/animate.min.css" rel="stylesheet" />
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+  <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+  <!-- Customized Bootstrap Stylesheet -->
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Template Stylesheet -->
+  <link href="css/style.css" rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
+  
+ 
+  
+</head>
+
+
+  <!-- Spinner Start -->
+  <!-- <div id="spinner"
+    class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <div class="spinner-border text-primary" style="width: 3rem; height: 3rem" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+  </div> -->
+
+  <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0" data-wow-delay="0.1s">
+    <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-xxl-5 px-xl-4 px-lg-3 px-md-2">
+      <img src="img/logo1.png" alt="" width="48px" height="48px" />
+      <img src="img/logo2.png" alt="" width="48px" height="48px" />
+      <div class="d-flex flex-column ms-lg-2 ms-md-1">
+        <h1 class="m-0 text-primary fw-light fs-5">
+          KHOA CÔNG NGHỆ THÔNG TIN
+        </h1>
+        <h2 class="m-0 text-dark fw-lighter fs-6">
+          Faculty of Information Technology
+        </h2>
+      </div>
+    </a>
+    <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <div class="navbar-nav ms-auto p-4 p-lg-0">
+        <div class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Giới thiệu</a>
+          <div class="dropdown-menu fade-up m-0">
+            <a href="booking.html" class="dropdown-item">Thông tin khoa</a>
+            <a href="team.html" class="dropdown-item">Cơ cấu tổ chức</a>
+            <a href="testimonial.html" class="dropdown-item">Giảng viên</a>
+            <a href="404.html" class="dropdown-item">Liên hệ</a>
+          </div>
+        </div>
+
+        <div class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Thông tin</a>
+          <div class="dropdown-menu fade-up m-0">
+            <a href="booking.html" class="dropdown-item">Tin tức</a>
+            <a href="team.html" class="dropdown-item">Sinh viên</a>
+          </div>
+        </div>
+
+        <div class="nav-item dropdown">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+              Đào tạo
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="#">
+                  Chương trình đào tạo
+                </a>
+                <ul class="submenu submenu-left dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="#">Kỹ thuật phần mềm</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Công nghệ thông tin</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Khoa học máy tính</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">An toàn thông tin</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Chương trình CLC CNTT & CDS</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Quy định & Biểu mẫu</a>
+              </li>
+            </ul>
+          </li>
+        </div>
+        <div class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Nghiên cứu</a>
+          <div class="dropdown-menu fade-up m-0">
+            <a href="booking.html" class="dropdown-item">Giảng viên</a>
+            <a href="team.html" class="dropdown-item">Sinh viên</a>
+          </div>
+        </div>
+        <a href="" class="btn btn-primary py-4 px-xl-4 px-lg-0">Tuyển dụng<i
+            class="fa fa-arrow-right ms-1 ms-xl-2 d-none d-xl-inline"></i></a>
+      </div>
+  </nav>
+  <!-- Navbar End -->
+   
+  <script>
+   $( function() {
+    $( "#accordion" ).accordion({
+  collapsible: true,
+  heightStyle: "content"
+         
+    });
+  } );
+   </script>
+
+  <body class="webKHMT">
+    <main style="width: 80%; margin: auto;">
+   <h1 style="margin-top: 5%;font-family:Arial, Helvetica, sans-serif"><b>Khoa học máy tính</b></h1>
+   <p><strong>Mã tuyển sinh: 74801101</strong></p>
+   <p><strong>Chỉ tiêu: 60</strong></p>
+   
+  <div id="accordion">
+    <h3>Giới thiệu</h3>
+    <div>
+      <p><strong>Ngành khoa học máy tính (Computer Science)</strong> đào tạo cử nhân có kiến thức nền tảng và chuyên sâu về khoa học máy tính. Sinh viên có thể hiểu được <strong>nguyên lý hoạt động máy tính,</strong> có thể vận dụng kiến thức từ cơ bản đến nâng cao để nghiên cứu, đề xuất, xây dựng <strong>giải pháp phần mềm</strong>, cũng như các <strong>hệ thống thông tin thông minh</strong> và hoàn chỉnh để phục vụ mục đích nghiên cứu phát triển, cũng như đáp ứng nhu cầu thực tiễn của xã hội.</p>
+      <ul>
+      <li>Chương trình học được thiết kế có tính hệ thống về ngành khoa học máy tính.</li>
+      <li>Chương trình học tập trung vào việc phát triển các kỹ năng và kiến thức về kỹ thuật lập trình, thuật toán, phân tích độ phức tạp thuật toán, sử dụng các ngôn ngữ lập trình hiện đại.</li>
+      <li>Sinh viên được thực hành và tham gia học tập nghiên cứu tại các phòng Lab hiện đại</li>
+      </ul>
+      <p><strong>Phụ trách chuyên môn chương trình đào tạo</strong></p>
+      <ul>
+      <li><span style="color: #780628;">TS. Nguyễn Trung Tuấn</li>
+      <li><span style="color: #780628;">TS. Phạm Xuân Lâm</li>
+      <li><span style="color: #780628;">ThS. Phạm Thảo</li>
+      </ul> </div>
+    <h3>Chương trình đào tạo</h3>
+    <div>
+      <p>Chương trình đào tạo Khoa học máy tính</p>
+      <table style="border-collapse: collapse; width: 99.5875%; height: 189px;">
+        <tbody>
+          <tr style="height: 21px;">
+            <td style="width: 14.3411%; height: 21px; background-color: #fafa00;"><strong>Năm thứ nhất</strong></td>
+            <td style="width: 15.9819%; height: 21px; background-color: #fafa00;"></td>
+          </tr>
+          <tr style="height: 21px;">
+            <td style="width: 14.3411%; height: 21px;">
+              <ul>
+                <li>Triết học Mác – Lê Nin</li>
+                <li>Kinh tế chính trị Mác – Lê Nin</li>
+                <li>Đại số</li>
+                <li>Nhập môn Công nghệ thông tin</li>
+                <li>Vật lý đại cương</li>
+                <li>Toán rời rạc</li>
+              </ul>
+            </td>
+            <td style="width: 15.9819%; height: 21px;">
+              <ul>
+                <li>Pháp luật đại cương</li>
+                <li>Chủ nghĩa xã hội khoa học</li>
+                <li>Kinh tế vi mô 1</li>
+                <li>Lý thuyết xác suất và thống kê toán</li>
+                <li>Cơ sở dữ liệu</li>
+                <li>Cơ sở lập trình</li>
+              </ul>
+            </td>
+          </tr>
+          <tr style="height: 21px;">
+            <td style="width: 14.3411%; height: 21px; background-color: #fafa00;"><strong> Năm thứ hai</strong></td>
+            <td style="width: 15.9819%; height: 21px; background-color: #fafa00;"></td>
+          </tr>
+          <tr style="height: 21px;">
+            <td style="width: 14.3411%; height: 21px;">
+              <ul>
+                <li>Lịch sử Đảng Cộng sản Việt Nam</li>
+                <li>Tư tưởng Hồ Chí Minh</li>
+                <li>Kinh tế vĩ mô</li>
+                <li>Cấu trúc dữ liệu và giải thuật</li>
+                <li>Phương pháp tính</li>
+                <li>Hệ điều hành</li>
+                <li>Lập trình hướng đối tượng<br>
+                </li>
+              </ul>
+            </td>
+            <td style="width: 15.9819%; height: 21px;">
+            <ul>
+              <li>Kiến trúc máy tính</li>
+              <li>Hệ quản trị cơ sở dữ liệu</li>
+              <li>Tiếng Anh chuyên ngành</li>
+              <li>Mạng máy tính và truyền số liệu (*)</li>
+              <li>Thiết kế Web (*)</li>
+              <li>Lập trình Java (*)</li>
+              <li>Các công nghệ hiện đại trong CNTT (*)<br>
+              </li>
+            </ul>
+            </td>
+          </tr>
+          <tr style="height: 21px;">
+            <td style="width: 14.3411%; height: 21px; background-color: #fafa00;"><strong> Năm thứ ba</strong></td>
+            <td style="width: 15.9819%; height: 21px; background-color: #fafa00;"></td>
+          </tr>
+          <tr style="height: 21px;">
+            <td style="width: 14.3411%; height: 21px;">
+              <ul>
+                <li>Phân tích và thiết kế hệ thống</li>
+                <li>Trí tuệ nhân tạo</li>
+                <li>Lập trình Python</li>
+                <li>Chuyên đề thực tế</li>
+                <li>Lập trình Web (*)</li>
+                <li>Quản lý dự án Công nghệ thông tin (*)<br>
+                </li>
+              </ul>
+            </td>
+            <td style="width: 15.9819%; height: 21px;">
+              <ul>
+                <li>Phát hiện tri thức từ dữ liệu</li>
+                <li>Phân tích và thiết kế thuật toán</li>
+                <li>Hệ hỗ trợ ra quyết định (*)</li>
+                <li>An toàn và bảo mật thông tin (*)</li>
+                <li>Đồ họa máy tính (*)</li>
+                <li>Lập trình ứng dụng (*)<br>
+                </li>
+              </ul>
+            </td>
+          </tr>
+          <tr style="height: 21px;">
+            <td style="width: 14.3411%; height: 21px; background-color: #fafa00;"><strong> Năm thứ tư</strong></td>
+            <td style="width: 15.9819%; height: 21px; background-color: #fafa00;"></td>
+          </tr>
+          <tr style="height: 21px;">
+            <td style="width: 14.3411%; height: 21px;">
+              <ul>
+                <li>Phát triển phần mềm hướng dịch vụ (*)</li>
+                <li>Xử lý ảnh (*)</li>
+                <li>Dữ liệu phi cấu trúc (*)<br>
+                </li>
+                </ul>
+              </ul>
+            </td>
+            <td style="width: 15.9819%; height: 21px;">
+              <ul>
+                <li>Phát triển phần mềm hướng dịch vụ (*)</li>
+                <li>Xử lý ảnh (*)</li>
+                <li>Dữ liệu phi cấu trúc (*)<br>
+                </li>
+              </ul>
+            </td>
+          </tr>
+          <tr style="height: 21px;">
+            <td style="width: 14.3411%; height: 21px;"></td>
+            <td style="width: 15.9819%; height: 21px;"></td>
+          </tr>
+        </tbody>
+      </table>
+      <p>(*) Chọn 10 trong tổ hợp 15 môn tự chọn</p>
+    </div>
+    <h3>Chuẩn đầu ra</h3>
+    <div>
+      <p>Sau khi tốt nghiệp, sinh viên ngành Khoa học máy tính nắm vững được các <strong>kiến thức</strong> sau:</p>
+      <ul>
+        <li>Hiểu những kiến thức nền tảng về kinh tế xã hội, khoa học chính trị và pháp luật trong học tập, nghiên cứu và giải quyết các vấn đề thực tiễn Việt Nam.</li>
+        <li>Hiểu các nguyên tắc lập trình, kiến trúc máy tính, hệ điều hành, cơ sở dữ liệu, mạng máy tính, hệ thống thông tin, cơ sở an toàn thông tin, lý thuyết mật mã.</li>
+        <li>Hiểu các kỹ thuật an toàn mạng máy tính, an toàn các ứng dụng web, an toàn điện toán đám mây, an toàn cơ sở dữ liệu, các kỹ thuật tấn công và xâm nhập mạng.</li>
+        <li>Có kiến thức về các mô hình bảo vệ và các kỹ thuật phòng thủ chống tấn công xâm nhập, quản trị mạng an toàn.</li>
+        <li>Có kiến thức đánh giá điểm yếu, lỗ hổng, các kỹ thuật kiểm tra an toàn, các vấn đề về chính sách, pháp luật và chuẩn hóa an toàn thông tin.</li>
+      </ul>
+      <p>Chuẩn đầu ra về <strong>thái độ và đạo đức nghề nghiệp</strong></p>
+      <ul>
+        <li>Thể hiện được sự tự lực khi làm việc độc lập, thể hiện trách nhiệm cá nhân và trách nhiệm đối với nhóm làm việc</li>
+        <li>Lập kế hoạch, điều phối, quản lý các nguồn lực, đánh giá và cải thiện hiệu quả các hoạt động</li>
+        <li>Thể hiện quan điểm và bảo vệ quan điểm cá nhân dựa trên cách tiếp cận khách quan, khoa học.</li>
+        <li>Xác định thực hiện trách nhiệm xã hội và đạo đức nghề nghiệp trong việc đưa ra những nhận định, đánh giá về các vấn đề chuyên môn.</li>
+      </ul>
+      <p>Chuẩn đầu ra về<strong> ngoại ngữ và tin học:</strong></p>
+      <ul>
+        <li>Đạt trình độ về ngoại ngữ: Có năng lực ngoại ngữ bậc 3/6 Khung năng lực ngoại ngữ của Việt Nam, đạt TOEIC 500</li>
+        <li>Đạt trình độ tin học: Chứng chỉ tin học quốc tế IC3 (Internet and Computing Core Certification). Là chuẩn quốc tế về sử dụng máy tính và Internet do tổ chức Certiport của Mỹ cấp;<br></li>
+      </ul>
+    </div>
+    <h3>Cơ hội nghề nghiệp</h3>
+    <div>
+      <p>Cử nhân Khoa học dữ liệu trong Kinh tế và Kinh doanh làm việc tại các vị trí:</p>
+      <ul>
+        <li>Chuyên gia phát triển phần mềm ứng dụng và hệ thống thông minh</li>
+        <li>Chuyên gia thiết kế và gia công phần mềm ứng dụng</li>
+        <li>Chuyên gia hoạch định chính sách phát triển công nghệ thông tin</li>
+        <li>Chuyên gia vận hành, bảo trì phần mềm, phần cứng máy tính, mạng máy tính, hệ thống thông minh.</li>
+        <li>Giảng viên, nghiên cứu viên tại các trường đại học và các viện nghiên cứu.</li>
+      </ul>
+        
+      <p><strong>Cơ hội tiếp tục học tập bậc cao hơn:</strong></p>
+      <p>– Sau khi tốt nghiệp, người học có lợi thế trong việc theo học chương trình Thạc sỹ và Tiến&nbsp;sỹ khoa học dữ liệu, phân tích dữ liệu, phân tích kinh doanh tại các trường đại học uy tín trên&nbsp;thế giới.</p>    </div>
+ </div>
+ 
+ 
+ </main>
+  </body>
+  
+
+ 
+  <!-- Footer Start -->
+  <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container py-5">
+      <div class="row g-5">
+        <div class="col-lg-4 col-md-6">
+          <h4 class="text-light mb-4">Địa chỉ</h4>
+          <p class="mb-2">
+            <i class="fa fa-map-marker-alt me-3"></i>Phòng 1310, toà A1,
+            Trường Đại học Kinh tế quốc dân
+          </p>
+          <p class="mb-2">
+            <i class="fa fa-phone-alt me-3"></i>0937638683 (TS. Phạm Xuân Lâm)
+          </p>
+          <p class="mb-2">
+            <i class="fa fa-envelope me-3"></i>kcntt@neu.edu.vn
+          </p>
+          <div class="d-flex pt-2">
+            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <h4 class="text-light mb-4">Thông tin</h4>
+          <a class="btn btn-link" href="">Giảng viên</a>
+          <a class="btn btn-link" href="">Cơ sở vật chất</a>
+          <a class="btn btn-link" href="">Chương trình đào tạo</a>
+          <a class="btn btn-link" href="">Tin tức</a>
+          <a class="btn btn-link" href="">Nghiên cứu khoa học</a>
+        </div>
+        <div class="col-lg-4 col-md-12">
+          <h4 class="text-light mb-4">Nhận thông báo</h4>
+          <p>Để lại email để nhận thông báo cập nhật từ Khoa Công nghệ thông tin</p>
+          <div class="position-relative mx-auto" style="max-width: 400px">
+            <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Email của bạn" />
+            <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">
+              Đăng ký
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="copyright">
+        <div class="row">
+          <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+            Bản quyền thuộc về
+            <a class="border-bottom" href="#">Khoa Công nghệ thông tin</a>
+            &copy;
+          </div>
+          <div class="col-md-6 text-center text-md-end">
+            <div class="footer-menu">
+              <a href="">Trang chủ</a>
+              <a href="">Quy định</a>
+              <a href="">Hỗ trợ</a>
+              <a href="">Hỏi đáp</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer End -->
+  <!-- Back to Top -->
+  <!-- <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a> -->
+
+  <!-- JavaScript Libraries -->
+  <!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/tempusdominus/js/moment.min.js"></script>
+  <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+  <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+  <!-- Template Javascript -->
+  <script src="js/main.js"></script>
+
+
+</html>
