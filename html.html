@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chuyển đổi div.containertintuc với dấu chấm</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f0f0;
+        }
+
+        .content {
+            width: 80%;
+            margin-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 10px; /* Khoảng cách giữa các containertintuc */
+        }
+
+        .containertintuc {
+            width: 33.33%; /* Độ rộng của mỗi containertintuc, tính toán sao cho có 3 containertintuc trên mỗi dòng */
+            margin: 10px;
+            display: none;
+            flex: 1 0 auto; /* Cho phép co giãn để containertintuc rộng bằng nhau */
+        }
+
+        .inner-box {
+            background-color:#f0f0f0 ;
+            border: 1px solid #d5cbcb;
+            box-sizing: border-box;
+            text-align:left;
+           
+            height:auto;
+            width: 100%; /* Chiều rộng đầy đủ trong containertintuc */
+            margin: 10px;
+            border-radius: 1%;
+        }
+        .noidung{
+            padding: 0px 20px;
+        }
+
+        .active {
+            display: flex;
+        }
+
+        .dots-containertintuc {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .dot {
+            height: 15px;
+            width: 15px;
+            margin: 5px;
+            background-color: #bbb;
+            border-radius: 50%;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .dot.active {
+            background-color: #333;
+        }
+
+        .more {
+            display: none;
+        }
+
+        .more.active {
+            display: block;
+        }
+
+        @media (max-width: 768px) {
+            .containertintuc {
+                width: 100%; /* Đặt chiều rộng 100% cho thiết bị máy tính bảng */
+                display: none; /* Ẩn tất cả các containertintuc */
+            }
+
+            .containertintuc.initial {
+                display: block; /* Chỉ hiển thị các containertintuc ban đầu */
+            }
+
+            .inner-box {
+                width: 100%;
+            }
+
+            .dots-containertintuc {
+                display: none;
+            }
+
+            .more {
+                display: block;
+                text-align: center;
+                cursor: pointer;
+                margin-top: 20px;
+                color: blue;
+                text-decoration: underline;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="containertintuc initial" id="containertintuc1">
+            <div class="inner-box">
+                <img src="./z5374680435972_4a89b85868599f886a921875c689f4ef.jpg" width="100%" height="auto" border-radius="100%">
+                <div class="noidung">
+                <h3>Trường Đại học Kinh tế Quốc dân thăm và ký kết thoả thuận hợp tác với Đại học Tasmania (UTAS), Úc</h3>
+                <p style="color:#686262;">Nhằm đổi mới, nâng cao chất lượng đào tạo và thúc đẩy hợp tác học thuật, trong khuôn khổ chuyến thăm và [...]</p>
+               
+                </div>
+                
+            </div>
+            <div class="inner-box">
+                <img src="./z5374680435972_4a89b85868599f886a921875c689f4ef.jpg" width="100%" height="auto">
+                <h3>Trường Đại học Kinh tế Quốc dân thăm và ký kết thoả thuận hợp tác với Đại học Tasmania (UTAS), Úc</h3>
+                <p>Nhằm đổi mới, nâng cao chất lượng đào tạo và thúc đẩy hợp tác học thuật, trong khuôn khổ chuyến thăm và [...]</p>
+            </div>
+            <div class="inner-box">
+                <img src="./z5374680435972_4a89b85868599f886a921875c689f4ef.jpg" width="100%" height="auto">
+                <h3>Trường Đại học Kinh tế Quốc dân thăm và ký kết thoả thuận hợp tác với Đại học Tasmania (UTAS), Úc</h3>
+                <p>Nhằm đổi mới, nâng cao chất lượng đào tạo và thúc đẩy hợp tác học thuật, trong khuôn khổ chuyến thăm và [...]</p>
+            </div>
+        </div>
+
+        <div class="containertintuc" id="containertintuc2">
+            <div class="inner-box">Div 4</div>
+            <div class="inner-box">Div 5</div>
+            <div class="inner-box">Div 6</div>
+        </div>
+
+        <div class="containertintuc" id="containertintuc3">
+            <div class="inner-box">Div 7</div>
+            <div class="inner-box">Div 8</div>
+            <div class="inner-box">Div 9</div>
+        </div>
+    </div>
+
+    <div class="dots-containertintuc">
+        <span class="dot active" onclick="showcontainertintuc(1)"></span>
+        <span class="dot" onclick="showcontainertintuc(2)"></span>
+        <span class="dot" onclick="showcontainertintuc(3)"></span>
+    </div>
+    <div class="more" onclick="toggleMore()">Xem thêm</div>
+
+    <script>
+        // Hiển thị containertintuc đầu tiên khi trang được tải
+        document.getElementById('containertintuc1').classList.add('active');
+
+        function showcontainertintuc(index) {
+            // Ẩn tất cả các containertintuc
+            document.querySelectorAll('.containertintuc').forEach(containertintuc => {
+                containertintuc.classList.remove('active');
+            });
+
+            // Hiển thị containertintuc tương ứng với index
+            document.getElementById(`containertintuc${index}`).classList.add('active');
+
+            // Đánh dấu dot tương ứng là active
+            document.querySelectorAll('.dot').forEach(dot => {
+                dot.classList.remove('active');
+            });
+            document.querySelector(`.dot:nth-child(${index})`).classList.add('active');
+        }
+
+        function toggleMore() {
+            const containertintucs = document.querySelectorAll('.containertintuc');
+            const more = document.querySelector('.more');
+
+            containertintucs.forEach((containertintuc, index) => {
+                if (index > 0) {
+                    containertintuc.classList.toggle('initial');
+                }
+            });
+
+            more.textContent = more.textContent === 'Xem thêm' ? 'Thu gọn' : 'Xem thêm';
+        }
+    </script>
+</body>
+</html>
