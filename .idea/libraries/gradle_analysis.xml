@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="gradle-analysis">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/IntelliJ IDEA 2024.1/plugins/gradle-analysis/lib/gradle-analysis.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

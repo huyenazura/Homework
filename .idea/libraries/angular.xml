@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="angular">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/IntelliJ IDEA 2024.1/plugins/angular/lib/angular.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

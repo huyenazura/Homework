@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="postcss">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/IntelliJ IDEA 2024.1/plugins/postcss/lib/postcss.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

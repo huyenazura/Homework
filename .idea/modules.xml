@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CHAT/CHAT.iml" filepath="$PROJECT_DIR$/CHAT/CHAT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IntelliJ IDEA 2024.1/IntelliJ IDEA 2024.1.iml" filepath="$PROJECT_DIR$/IntelliJ IDEA 2024.1/IntelliJ IDEA 2024.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test/Test.iml" filepath="$PROJECT_DIR$/Test/Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tuontap_buoi1/Tuontap_buoi1.iml" filepath="$PROJECT_DIR$/Tuontap_buoi1/Tuontap_buoi1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/java.iml" filepath="$PROJECT_DIR$/.idea/java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javahoctrenlop_11_04/javahoctrenlop_11_04.iml" filepath="$PROJECT_DIR$/javahoctrenlop_11_04/javahoctrenlop_11_04.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="fullLine1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/IntelliJ IDEA 2024.1/plugins/fullLine/lib/fullLine.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

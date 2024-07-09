@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="vitejs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/IntelliJ IDEA 2024.1/plugins/vitejs/lib/vitejs.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

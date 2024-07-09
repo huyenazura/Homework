@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="vcs-github">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/IntelliJ IDEA 2024.1/plugins/vcs-github/lib/vcs-github.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

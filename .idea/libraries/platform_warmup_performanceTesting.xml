@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="platform-warmup-performanceTesting">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/IntelliJ IDEA 2024.1/plugins/platform-warmup-performanceTesting/lib/platform-warmup-performanceTesting.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

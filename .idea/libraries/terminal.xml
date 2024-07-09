@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="terminal">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/IntelliJ IDEA 2024.1/plugins/terminal/lib/terminal.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="searchEverywhereMl">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/IntelliJ IDEA 2024.1/plugins/searchEverywhereMl/lib/searchEverywhereMl.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

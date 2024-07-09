@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="javaee-jpa-jps">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/IntelliJ IDEA 2024.1/plugins/JPA/lib/jps/javaee-jpa-jps.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

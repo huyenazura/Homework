@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="flyway">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/IntelliJ IDEA 2024.1/plugins/FlyWay/lib/flyway.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

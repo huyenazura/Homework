@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="javascript-impl">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/IntelliJ IDEA 2024.1/plugins/javascript-impl/lib/javascript-impl.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="webDeployment">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/IntelliJ IDEA 2024.1/plugins/webDeployment/lib/webDeployment.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
