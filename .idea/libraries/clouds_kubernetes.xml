@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="clouds-kubernetes">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/IntelliJ IDEA 2024.1/plugins/clouds-kubernetes/lib/clouds-kubernetes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

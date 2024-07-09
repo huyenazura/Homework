@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="lib11">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/IntelliJ IDEA 2024.1/plugins/gradle/lib/gradle-api-8.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/IntelliJ IDEA 2024.1/plugins/gradle/lib/gradle-tooling-extension-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/IntelliJ IDEA 2024.1/plugins/gradle/lib/gradle-tooling-extension-impl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/IntelliJ IDEA 2024.1/plugins/gradle/lib/gradle.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="lib9">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/IntelliJ IDEA 2024.1/plugins/grid-core-impl/lib/grid-core.jar!/" />
+      <root url="jar://$PROJECT_DIR$/IntelliJ IDEA 2024.1/plugins/grid-core-impl/lib/jdbc-console-types.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

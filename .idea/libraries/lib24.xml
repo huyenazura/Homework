@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="lib24">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/IntelliJ IDEA 2024.1/plugins/vcs-git/lib/vcs-git.jar!/" />
+      <root url="jar://$PROJECT_DIR$/IntelliJ IDEA 2024.1/plugins/vcs-git/lib/git4idea-rt.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

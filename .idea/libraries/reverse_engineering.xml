@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="reverse-engineering">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/IntelliJ IDEA 2024.1/plugins/DB Reverse Engineering/lib/reverse-engineering.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

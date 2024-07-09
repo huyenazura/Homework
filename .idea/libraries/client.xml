@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="client">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/IntelliJ IDEA 2024.1/plugins/cwm-plugin/lib/client/cwm-guest-notebooks.jar!/" />
+      <root url="jar://$PROJECT_DIR$/IntelliJ IDEA 2024.1/plugins/cwm-plugin/lib/client/cwm-guest.jar!/" />
+      <root url="jar://$PROJECT_DIR$/IntelliJ IDEA 2024.1/plugins/cwm-plugin/lib/client/rd-client.jar!/" />
+      <root url="jar://$PROJECT_DIR$/IntelliJ IDEA 2024.1/plugins/cwm-plugin/lib/client/cwm-guest-terminal.jar!/" />
+      <root url="jar://$PROJECT_DIR$/IntelliJ IDEA 2024.1/plugins/cwm-plugin/lib/client/cwm-guest-markdown.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

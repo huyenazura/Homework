@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="copyright">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/IntelliJ IDEA 2024.1/plugins/copyright/lib/copyright.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

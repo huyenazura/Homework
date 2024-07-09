@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="lib18">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/IntelliJ IDEA 2024.1/plugins/micronaut/lib/micronaut.jar!/" />
+      <root url="jar://$PROJECT_DIR$/IntelliJ IDEA 2024.1/plugins/micronaut/lib/micronaut-gradle-tooling.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

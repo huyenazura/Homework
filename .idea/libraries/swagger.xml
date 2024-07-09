@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="swagger">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/IntelliJ IDEA 2024.1/plugins/swagger/lib/swagger.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

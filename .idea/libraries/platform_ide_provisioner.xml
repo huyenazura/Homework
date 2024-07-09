@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="platform-ide-provisioner">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/IntelliJ IDEA 2024.1/plugins/platform-ide-provisioner/lib/platform-ide-provisioner.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

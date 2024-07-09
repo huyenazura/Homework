@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="indexing-shared-turbocharger">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/IntelliJ IDEA 2024.1/plugins/indexing-shared-turbocharger/lib/indexing-shared-turbocharger.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

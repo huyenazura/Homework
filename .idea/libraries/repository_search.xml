@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="repository-search">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/IntelliJ IDEA 2024.1/plugins/repository-search/lib/repository-search.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

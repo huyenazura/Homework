@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="byteCodeViewer">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/IntelliJ IDEA 2024.1/plugins/java-byteCodeViewer/lib/byteCodeViewer.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

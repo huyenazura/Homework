@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="lib14">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/IntelliJ IDEA 2024.1/plugins/maven/lib/intellij.maven.server.indexer/lib/apache.maven.core-3.8.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/IntelliJ IDEA 2024.1/plugins/maven/lib/intellij.maven.server.indexer/lib/apache.maven.wagon.provider.api-3.5.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/IntelliJ IDEA 2024.1/plugins/maven/lib/intellij.maven.server.indexer/lib/apache.maven.archetype.common-3.2.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

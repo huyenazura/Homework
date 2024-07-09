@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="vcs-hg">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/IntelliJ IDEA 2024.1/plugins/vcs-hg/lib/vcs-hg.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

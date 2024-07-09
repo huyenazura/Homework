@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="wsl-remoteSdk">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/IntelliJ IDEA 2024.1/plugins/wsl-remoteSdk/lib/wsl-remoteSdk.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

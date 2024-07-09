@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="platform-tracing-ide">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/IntelliJ IDEA 2024.1/plugins/platform-tracing-ide/lib/platform-tracing-ide.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
